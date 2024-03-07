@@ -1,0 +1,11 @@
+.parent .bouton1 {
+  background-image: url("/assets/NavIcon/Info.svg");
+}
+
+.container-about-eni{
+  position: absolute;
+  left: 21rem;
+  background: red;
+  top: 4rem;
+  width: 80%;
+}

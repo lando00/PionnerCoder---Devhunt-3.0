@@ -1,0 +1,31 @@
+
+.auth form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .auth form label, 
+  .auth form h1{
+    color: var(--black-color);
+  }
+  
+  .auth p{
+    color: var(--black-color);
+  }
+
+  .auth p,
+  .auth .auth-title{
+    text-align: center;
+    width: 100%;
+  }
+
+  .auth span.error{
+    color: rgb(251, 56, 56);
+  }
+  
+  .form-group{
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+body,
+html{
+  height: 100%;
+}
+
+:root{
+  --principale-color: #02A86A;
+  --principale-color-transparent:#3c0e4e33;
+  --white-color: #fff;
+  --black-color: #2b2b2b;
+}
+
+.container{
+  width: 76%;
+  margin: auto;
+}
+
+.btn{
+  padding: 0.5rem 1.4rem;
+  border: none;
+  transition: all .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn.primary{
+  background: var(--principale-color);
+  color: var(--white-color);
+}
+
+.btn.primary:hover{
+  background: var(--principale-color-transparent);
+  color: var(--principale-color);
+}
+
+
+.btn.secondary{
+  background: var(--principale-color-transparent);
+  color: var(--principale-color);
+}
+
+.btn.secondary:hover{
+  background: var(--principale-color);
+  color: var(--white-color);
+}
+
+
+.principale-color{
+  color: var(--principale-color);
+}
+
+.black-color{
+  color: var(--black-color);
+}
+
+.prinpale-bg{
+  background: var(--principale-color);
+  color: var(--white-color);
+}
+
+.white-color{
+  color: var(--white-color);
+}
+
+@media (max-width: 1017px) {
+  .container{
+    width: 84%;
+  }
+}
+
+@media(max-width: 838px){
+  .container{
+    width: 96%;
+  }
+}
+
+.home{
+  max-height: 100vh;
+  overflow: hidden;
+}
